@@ -1,0 +1,45 @@
+body {
+    background: #020617;
+    color: #e2e8f0;
+    text-align: center;
+    font-family: Arial;
+}
+
+.container {
+    max-width: 650px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 20px #38bdf8;
+    border-radius: 10px;
+}
+
+button {
+    background: transparent;
+    color: #38bdf8;
+    border: 1px solid #38bdf8;
+    padding: 8px;
+    margin: 4px;
+    border-radius: 6px;
+}
+
+button:hover {
+    background: #38bdf8;
+    color: black;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 6px;
+    border: 1px solid #38bdf8;
+    background: #020617;
+    color: white;
+}
+
+#physicsContainer, #threeContainer {
+    width: 320px;
+    height: 200px;
+    margin: auto;
+    border: 1px solid #38bdf8;
+}
