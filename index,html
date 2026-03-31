@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mega Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+<h1>⚡ Mega Calculator</h1>
+
+<!-- Modes -->
+<div>
+<button onclick="setMode('math')">Math</button>
+<button onclick="setMode('physics')">Physics</button>
+<button onclick="setMode('shapes')">3D Shapes</button>
+<button onclick="setMode('puzzle')">Puzzle</button>
+</div>
+
+<div id="buttonsContainer"></div>
+
+<input id="calcInput" placeholder="Enter here">
+
+<div id="physicsContainer"></div>
+<div id="threeContainer"></div>
+
+<button onclick="calculate()">Calculate</button>
+
+<p id="result"></p>
+<p id="steps"></p>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
